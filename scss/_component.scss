@@ -26,80 +26,32 @@ header {
 
 .navbar {
   background-color: $bg_nav_def;
-  border-color: $bg_nav_hover;
-  .navbar-brand {
-    color: $nav_color;
-    &:hover, &:focus {
-      color: $nav_color_hover;
-    }
-  }
-  .navbar-text {
-    color: $nav_color;
-  }
-  .navbar-nav {
-    > li {
-      > a {
-        color: $nav_color;
-        &:hover,  &:focus {
-          color: $nav_color_hover;
-        }
-      }
-      @if $dropDown {
-        > .dropdown-menu {
-          background-color: $bg_nav_def;
-          > li {
-            > a {
-              color: $nav_color;
-              &:hover,  &:focus {
-                color: $nav_color_hover;
-                background-color: $bg_nav_hover;
-              }
-            }
-            > .divider {
-              background-color: $bg_nav_hover;
-            }
-          }
-        }
-      }
-    }
-    @if $dropDown {
-      .open .dropdown-menu > .active {
-        > a, > a:hover, > a:focus {
-          color: $nav_color_hover;
-          background-color: $bg_nav_hover;
-        }
-      }
-    }
-    > .active {
-      > a, > a:hover, > a:focus {
-        color: $nav_color_hover;
-        background-color: $bg_nav_hover;
-      }
-    }
-    > .open {
-      > a, > a:hover, > a:focus {
-        color: $nav_color_hover;
-        background-color: $bg_nav_hover;
-      }
-    }
-  }
-  .navbar-toggle {
-    border-color: $bg_nav_hover;
-    &:hover, &:focus {
-      background-color: $bg_nav_hover;
-    }
-    .icon-bar {
-      background-color: $nav_color;
-    }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
   }
 
-  .navbar-collapse, .navbar-form {
-    border-color: $nav_color;
+  li {
+    float: left;
   }
-  .navbar-link {
+
+  li a {
+    display: block;
     color: $nav_color;
-    &:hover {
-      color: $nav_color_hover;
-    }
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  a:hover:not(.active) {
+    background-color: $bg_nav_hover;
+  }
+
+  .active {
+    background-color: $bg_nav_hover;
+    color:$nav_color_hover;
   }
 }

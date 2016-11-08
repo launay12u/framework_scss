@@ -213,36 +213,26 @@ header {
   font-size: 25px; }
 
 .navbar {
-  background-color: #338de1;
-  border-color: #5b05ee; }
-  .navbar .navbar-brand {
-    color: #ecf0f1; }
-    .navbar .navbar-brand:hover, .navbar .navbar-brand:focus {
-      color: #ecdbff; }
-  .navbar .navbar-text {
-    color: #ecf0f1; }
-  .navbar .navbar-nav > li > a {
-    color: #ecf0f1; }
-    .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
-      color: #ecdbff; }
-  .navbar .navbar-nav > .active > a, .navbar .navbar-nav > .active > a:hover, .navbar .navbar-nav > .active > a:focus {
-    color: #ecdbff;
+  background-color: #338de1; }
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333; }
+  .navbar li {
+    float: left; }
+  .navbar li a {
+    display: block;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; }
+  .navbar a:hover:not(.active) {
     background-color: #5b05ee; }
-  .navbar .navbar-nav > .open > a, .navbar .navbar-nav > .open > a:hover, .navbar .navbar-nav > .open > a:focus {
-    color: #ecdbff;
-    background-color: #5b05ee; }
-  .navbar .navbar-toggle {
-    border-color: #5b05ee; }
-    .navbar .navbar-toggle:hover, .navbar .navbar-toggle:focus {
-      background-color: #5b05ee; }
-    .navbar .navbar-toggle .icon-bar {
-      background-color: #ecf0f1; }
-  .navbar .navbar-collapse, .navbar .navbar-form {
-    border-color: #ecf0f1; }
-  .navbar .navbar-link {
-    color: #ecf0f1; }
-    .navbar .navbar-link:hover {
-      color: #ecdbff; }
+  .navbar .active {
+    background-color: #5b05ee;
+    color: #ecdbff; }
 
 .alertes, .alertes_succes, .alertes_info, .alertes_warn, .alertes_danger {
   padding: 10px;
