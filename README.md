@@ -49,10 +49,10 @@ in which you can find an example of all features in this framework.
 If you use scss version of this framework, you can customize all the attribute values of each contents.
 To do this you simply open the custom.css file, uncomment the lines that you want to change and insert a new value.
 
-For example -> Change the number of column grid :
-Open cutomize.scss
-`//$numcols : 5;` <- uncomment
-`$numcols : 12; ` <- new value
+For example -> Change the number of column grid :  
+Open cutomize.scss  
+`//$numcols : 5;` <- uncomment  
+`$numcols : 12; ` <- new value  
 
 ## Creators
 
