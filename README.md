@@ -41,8 +41,24 @@ path might be change.
 
 ## Test page
 
+When you clone the project you have a folder named 'test', in this folder you can find a html page 'test.html' 
+in which you can find an example of all features in this framework.
+
 ## Customize
+
+If you use scss version of this framework, you can customize all the attribute values of each contents.
+To do this you simply open the custom.css file, uncomment the lines that you want to change and insert a new value.
+
+For example -> Change the number of column grid :  
+Open cutomize.scss  
+`//$numcols : 5;` <- uncomment  
+`$numcols : 12; ` <- new value  
 
 ## Creators
 
-## Licences
+Launay Guillaume https://github.com/launay12u  
+Pierre Alexandre https://github.com/pierre121u
+
+## Licence
+
+This project is under gnu / gpl license for more information see <http://www.gnu.org/licenses/>
