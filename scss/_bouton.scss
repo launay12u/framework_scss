@@ -1,0 +1,92 @@
+
+.btn {
+  font-size: $size_btn;
+  width: $w_btn;
+  text-align: $text_align_btn;
+  border : $border_button;
+  border-color: $border_color_btn;
+  border-radius: $radius_btn;
+  background-color: $btn_color;
+  &:hover {
+    cursor: hand;
+    background-color: $btn_hover_color;
+  }
+  &:active {
+    background-color: $btn_active_color;
+  }
+}
+
+.btn_small {
+  @extend .btn;
+  width: $width_small_btn;
+  background-color: $btn_color;
+  &:hover {
+    cursor: hand;
+    background-color: $btn_hover_color;
+  }
+  &:active {
+    background-color: $btn_active_color;
+  }
+}
+
+.btn_large {
+  @extend .btn;
+  border-radius: $radius_large_btn;
+  width: $width_large_btn;
+  background-color: $btn_color;
+  &:hover {
+    cursor: hand;
+    background-color: $btn_hover_color;
+  }
+  &:active {
+    background-color: $btn_active_color;
+  }
+}
+
+@mixin btncolor($color, $color_hover, $color_active){
+  @extend .btn;
+  background-color: $color;
+  &:hover {
+    cursor: hand;
+    background-color: $color_hover;
+  }
+  &:active {
+    background-color: $color_active;
+  }
+}
+
+@for $i from 1 to length($btn_l_color)+1 {
+  .btn_#{nth($btn_l_color, $i)}
+  {
+    @include btncolor(nth($btn_l_color, $i), nth($btn_l_color_hover, $i), nth($btn_l_color_active, $i));
+  }
+}
+
+
+
+.btn_flat {
+  @extend .btn;
+  border : none;
+  border-radius: 0;
+  background-color: $btn_color;
+  &:hover{
+    cursor: hand;
+    background-color: $btn_hover_color;
+  }
+  &:active{
+    background-color: $btn_active_color;
+
+  }
+}
+
+.btn_xl {
+  @extend .btn;
+  width: $btn_width_xl;
+}
+
+.btn_fancy {
+  @extend .btn;
+  background: $btn_fancy_bg;
+  perspective: $btn_fancy_perspec;
+  box-shadow: $btn_fancy_shadow
+}

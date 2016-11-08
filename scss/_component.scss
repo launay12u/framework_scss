@@ -1,0 +1,105 @@
+.jumbotron{
+
+  background-color: $bg_jumbotron;
+  padding : $padding_jumbotron;
+  display: $display_jumbotron;
+  color: $color_jumbotron;
+  text-align: $text_align_jumbotron;
+
+   h1{
+    font-size: $size_h1_jumbotron;
+  }
+   p{
+    font-size: $size_p_jumbotron;
+  }
+
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  color:black;
+  background-color: blue;
+  padding: 2em;
+  font-size: 25px;
+}
+
+.navbar {
+  background-color: $bg_nav_def;
+  border-color: $bg_nav_hover;
+  .navbar-brand {
+    color: $nav_color;
+    &:hover, &:focus {
+      color: $nav_color_hover;
+    }
+  }
+  .navbar-text {
+    color: $nav_color;
+  }
+  .navbar-nav {
+    > li {
+      > a {
+        color: $nav_color;
+        &:hover,  &:focus {
+          color: $nav_color_hover;
+        }
+      }
+      @if $dropDown {
+        > .dropdown-menu {
+          background-color: $bg_nav_def;
+          > li {
+            > a {
+              color: $nav_color;
+              &:hover,  &:focus {
+                color: $nav_color_hover;
+                background-color: $bg_nav_hover;
+              }
+            }
+            > .divider {
+              background-color: $bg_nav_hover;
+            }
+          }
+        }
+      }
+    }
+    @if $dropDown {
+      .open .dropdown-menu > .active {
+        > a, > a:hover, > a:focus {
+          color: $nav_color_hover;
+          background-color: $bg_nav_hover;
+        }
+      }
+    }
+    > .active {
+      > a, > a:hover, > a:focus {
+        color: $nav_color_hover;
+        background-color: $bg_nav_hover;
+      }
+    }
+    > .open {
+      > a, > a:hover, > a:focus {
+        color: $nav_color_hover;
+        background-color: $bg_nav_hover;
+      }
+    }
+  }
+  .navbar-toggle {
+    border-color: $bg_nav_hover;
+    &:hover, &:focus {
+      background-color: $bg_nav_hover;
+    }
+    .icon-bar {
+      background-color: $nav_color;
+    }
+  }
+
+  .navbar-collapse, .navbar-form {
+    border-color: $nav_color;
+  }
+  .navbar-link {
+    color: $nav_color;
+    &:hover {
+      color: $nav_color_hover;
+    }
+  }
+}

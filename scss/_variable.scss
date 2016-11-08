@@ -1,0 +1,160 @@
+//Body
+
+$size_body : 14px !default ;
+$bg_body : #fff !default ;
+$color_base : #000 !default ;
+$color_base_dark : darken($color_base, 15%) !default ;
+$color_base_darken : darken($color_base, 25%) !default ;
+$color_base_light : lighten($color_base, 15%) !default ;
+$color_base_lighten : lighten($color_base, 25%) !default ;
+$font_body : Georgia, Arial, sans-serif  !default ;
+
+//Title
+
+$font_title : Helvetica, Arial, sans-serif  !default ;
+$color_title : grey  !default ;
+$color_small_title : lightblue  !default ;
+$size_h1 : $size_body*2.5 !default ;
+$size_h2 : $size_body*2.1 !default ;
+$size_h3 : $size_body*1.7 !default ;
+$size_h4 : $size_body*1.2 !default ;
+$size_h5 : $size_body !default ;
+$size_h6 : $size_body*0.85 !default ;
+$size_small_h1 : $size_h1*0.7 !default ;
+$size_small_h2 : $size_h2*0.7 !default ;
+$size_small_h3 : $size_h3*0.7 !default ;
+$size_small_h4 : $size_h3*0.7 !default ;
+$size_small_h5 : $size_h4*0.7 !default ;
+$size_small_h6 : $size_h5*0.7 !default ;
+$font_weight_title : bold !default ;
+
+//p
+
+$p_margin : 2% !default ;
+
+//Mark
+
+$color_mark : darken($bg_body,10%) !default ;
+$bg_mark : yellow !default ;
+
+//del
+
+$decoration_del : line-through !default ;
+
+//ins
+
+$decoration_ins : underline !default ;
+
+//u
+
+$decoration_u : underline !default ;
+
+//strong
+
+$font_weight_strong : bold !default ;
+
+//em
+
+$font_style_em : italic !default ;
+
+//abbr
+
+$color_abbr : $color_base_light !default ;
+
+//blockquote
+
+$color_blockquote : $color_base_light !default ;
+$size_blockquote : floor($size_body*1.25) !default ;
+$border_color_blockquote : $color_base_dark !default ;
+$border_blockquote : 1px solid !default ;
+
+//code
+
+$background_color_code : $color_base_darken !default ;
+$color : $color_base_dark !default ;
+
+//font pre code and kbd
+
+$font_mono : Menlo, Monaco, Consolas, "Courier New", monospace !default ;
+
+//table
+
+$padding_cell : 8px !default ;
+$bg_table :transparent !default ;
+$align_table : left !default ;
+$border_table : 1px solid !default ;
+$border_color_table : black !default ;
+
+// a, link
+
+$link_color : #FF00BF !default ;
+$link_hover_color : darken($link_color,15%) !default ;
+
+//Button
+
+$border_button : 1px solid !default ;
+$border_color_btn : black !default ;
+$radius_btn : 15px !default ;
+$text_align_btn : center !default ;
+$size_btn : $size_body*1.2 !default ;
+$w_btn: 25% !default ;
+$btn_color: grey !default ;
+$btn_hover_color: darken($btn_color,15%) !default ;
+$btn_active_color: lighten($btn_color,15%) !default ;
+$btn_l_color : red, blue, orange, green ;
+$btn_l_color_hover: crimson, navy, orangered, darken(green, 15%);
+$btn_l_color_active: pink,lightskyblue, khaki, lightgreen;
+$btn_fancy_color: green !default ;
+$radius_large_btn : 25px !default ;
+$width_large_btn : 55% !default ;
+$width_small_btn : 10% !default ;
+$btn_width_xl : 100% !default ;
+$btn_fancy_bg : linear-gradient(to top right,$bg_body,$btn_fancy_color) !default ;
+$btn_fancy_perspec : 800px !default ;
+$btn_fancy_shadow : 8px 8px 0px #AAA !default ;
+
+//alertes
+
+$width_alertes : 98% !default ;
+$alertes_succes_color: lightgreen !default ;
+$alertes_info_color: lightblue !default ;
+$alertes_warn_color: brown !default ;
+$alertes_danger_color: purple !default ;
+$padding_alertes: 10px !default ;
+$border_alertes : 5px !default ;
+$border_color_succes : lighten($alertes_succes_color,15%) !default ;
+$border_color_info : lighten($alertes_info_color,15%) !default ;
+$border_color_warn : lighten($alertes_warn_color,15%) !default ;
+$border_color_danger : lighten($alertes_danger_color,15%) !default ;
+
+//jumbotron
+
+
+$bg_jumbotron : green !default ;
+$text_align_jumbotron : center !default ;
+$color_jumbotron : $color_base_dark !default ;
+$size_h1_jumbotron : $size_h1*1.5 !default ;
+$size_p_jumbotron : $size_body*1.2 !default ;
+$padding_jumbotron : 15px !default ;
+$display_jumbotron : inline-block !default ;
+
+//breadcrumb
+
+$breadcrumb_color : brown !default ;
+$breadcrumb_font : 18px Helvetica, Arial, Sans-Serif !default ;
+
+//navbar
+
+$bg_nav_def: #338de1;
+$bg_nav_hover: #5b05ee;
+$nav_color: #ecf0f1;
+$nav_color_hover: #ecdbff;
+$dropDown: false;
+
+//grid
+
+$width: 100 !default ;
+$numcols: 5 !default ;
+$w_gout: 2 !default ;
+$w_c: $width - $numcols*$w_gout !default ;
+$marg_bot: 20px !default ;

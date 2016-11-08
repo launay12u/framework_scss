@@ -1,0 +1,29 @@
+
+
+@mixin grid-col($cols, $numcols) {
+  box-sizing: border-box;
+  float: left;
+  height:auto;
+  width: percentage($w_c/$numcols * $cols + $w_gout * ($cols - 1) )/100;
+  margin-left: percentage($w_gout)/100;
+  margin-bottom: $marg_bot;
+
+}
+
+@mixin grid-offset($cols,$numcols) {
+  margin-left: percentage($w_c/$numcols * $cols + $w_gout * ($cols - 1) )/100 + percentage($w_gout * 2)/100;
+}
+
+@for $cols from 1 to $numcols+1 {
+  .span-#{$cols}
+  {
+    @include grid-col($cols, $numcols);
+  }
+}
+
+@for $cols from 1 to $numcols+1 {
+  .offset-#{$cols}
+  {
+   @include grid-offset($cols, $numcols);
+  }
+}

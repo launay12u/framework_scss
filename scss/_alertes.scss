@@ -1,0 +1,50 @@
+
+.alertes {
+  padding : $padding_alertes ;
+  width: $width_alertes;
+  border : $border_alertes;
+  text-align: center;
+  margin:auto;
+
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    }
+
+    .closebtn:hover {
+        color: black;
+    }
+}
+
+.alertes_succes {
+  @extend .alertes;
+  background-color: $alertes_succes_color;
+  border-color: $border_color_succes;
+}
+
+.alertes_info {
+  @extend .alertes;
+  background-color : $alertes_info_color;
+  border-color: $border_color_info;
+
+}
+
+.alertes_warn{
+  @extend .alertes;
+  background-color: $alertes_warn_color;
+  border-color: $border_color_warn;
+
+}
+
+.alertes_danger {
+  @extend .alertes;
+  background-color: $alertes_danger_color;
+  border-color: $border_color_danger;
+
+}

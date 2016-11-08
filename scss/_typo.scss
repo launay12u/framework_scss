@@ -1,0 +1,189 @@
+h1, h2, h3, h4, h5, h6 {
+	color : $color_title;
+	font-weight: $font-weight_title ;
+	font-family: $font_title;
+}
+
+h1{
+	font-size: $size_h1;
+	small{
+		font-size: $size_small_h1;
+	}
+}
+
+h2{
+	font-size: $size_h2;
+	small{
+		font-size: $size_small_h2;
+	}
+}
+
+h3{
+	font-size: $size_h3;
+	small{
+		font-size: $size_small_h3;
+	}
+}
+
+h4{
+	font-size: $size_h4;
+	small{
+		font-size: $size_small_h4;
+	}
+}
+
+h5{
+	font-size: $size_h5;
+	small{
+		font-size: $size_small_h5;
+	}
+}
+
+h6{
+	font-size: $size_h6;
+	small{
+		font-size: $size_small_h6;
+	}
+}
+
+h1.small{
+	font-size: $size_small_h1;
+}
+h2.small{
+	font-size: $size_small_h2;
+}
+
+h3.small{
+	font-size: $size_small_h3;
+
+}
+
+h4.small{
+	font-size: $size_small_h4;
+}
+
+h5.small{
+	font-size: $size_small_h5;
+}
+
+h6.small{
+	font-size: $size_small_h6;
+}
+
+body {
+	background-color: $bg_body;
+	font-size: $size_body;
+	font-family: $font_body;
+	color : $color_base;
+	p{
+		margin : $p_margin;
+		font-size: inherit;
+		font-family: inherit;
+	}
+}
+
+
+
+mark{
+	background-color: $bg_mark;
+	color: $color_mark;
+}
+
+del{
+	text-decoration: $decoration_del;
+}
+
+ins{
+	text-decoration: $decoration_ins;
+}
+
+u{
+	text-decoration: $decoration_u;
+}
+
+strong {
+	font-weight: $font_weight_strong;
+}
+
+em {
+	font-style: $font_style_em;
+}
+
+abbr {
+	color: $color_abbr;
+}
+
+blockquote {
+	color : $color_blockquote;
+	border-color: $border_color_blockquote;
+	font-size: $size_blockquote;
+	border : $border_blockquote
+}
+
+code{
+	background-color: grey;
+	color: white;
+	font-family: $font_mono;
+
+}
+
+pre{
+	font-family: $font_mono;
+}
+
+kbd{
+	font-family: $font_mono;
+}
+
+ul li{
+	list-style-type: circle;
+}
+
+ul.square {
+	list-style-type: square;
+	text-decoration: none;
+}
+
+.align_left {
+	text-align: left;
+}
+
+.align_right {
+	text-align: right;
+}
+
+.align_center {
+	text-align: center;
+}
+
+.align_justify{
+	text-align: justify;
+}
+
+.transformation_maj{
+	text-transform: uppercase;
+}
+
+.transformation_min{
+	text-transform: lowercase;
+}
+
+table {
+	align : $align_table;
+	border: 1px solid black;
+	background-color: $bg_table;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+		padding: $padding_cell;
+
+}
+
+a{
+	color : $link_color;
+}
+
+a:hover{
+	color: $link_hover_color;
+}
