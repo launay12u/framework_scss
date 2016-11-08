@@ -4,7 +4,7 @@ Framework scss/css make in curse of Licence CISIIE
 
 # Table of content
 
-- [Install](#Install)
+- [Install](#install)
 - Contents
 - Customize
 - Creators
