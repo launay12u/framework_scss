@@ -56,7 +56,7 @@ Open cutomize.scss
 
 ## Creators
 
-Launay Guillaume https://github.com/launay12u
+Launay Guillaume https://github.com/launay12u  
 Pierre Alexandre https://github.com/pierre121u
 
 ## Licence
