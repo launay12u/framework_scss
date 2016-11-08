@@ -59,6 +59,6 @@ Open cutomize.scss
 Launay Guillaume https://github.com/launay12u
 Pierre Alexandre https://github.com/pierre121u
 
-## Licences
+## Licence
 
 This project is under gnu / gpl license for more information see <http://www.gnu.org/licenses/>
