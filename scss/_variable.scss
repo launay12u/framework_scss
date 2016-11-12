@@ -101,9 +101,9 @@ $w_btn: 25% !default ;
 $btn_color: grey !default ;
 $btn_hover_color: darken($btn_color,15%) !default ;
 $btn_active_color: lighten($btn_color,15%) !default ;
-$btn_l_color : red, blue, orange, green ;
-$btn_l_color_hover: crimson, navy, orangered, darken(green, 15%);
-$btn_l_color_active: pink,lightskyblue, khaki, lightgreen;
+$btn_l_color : red, blue, orange, green !default ;
+$btn_l_color_hover: crimson, navy, orangered, darken(green, 15%) !default ;
+$btn_l_color_active: pink,lightskyblue, khaki, lightgreen !default ;
 $btn_fancy_color: green !default ;
 $radius_large_btn : 25px !default ;
 $width_large_btn : 55% !default ;
@@ -145,10 +145,10 @@ $breadcrumb_font : 18px Helvetica, Arial, Sans-Serif !default ;
 
 //navbar
 
-$bg_nav_def: #338de1;
-$bg_nav_hover: #5b05ee;
-$nav_color: #ecf0f1;
-$nav_color_hover: #ecdbff;
+$bg_nav_def: #338de1 !default ;
+$bg_nav_hover: #5b05ee !default ;
+$nav_color: #ecf0f1 !default ;
+$nav_color_hover: #ecdbff!default ;
 
 //grid
 
