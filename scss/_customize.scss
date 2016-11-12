@@ -1,0 +1,159 @@
+//Body
+
+//$size_body : 14px ;
+//$bg_body : #fff ;
+//$color_base : #000 ;
+//$color_base_dark : darken(//$color_base, 15%) ;
+//$color_base_darken : darken(//$color_base, 25%) ;
+//$color_base_light : lighten(//$color_base, 15%) ;
+//$color_base_lighten : lighten(//$color_base, 25%) ;
+//$font_body : Georgia, Arial, sans-serif  ;
+
+//Title
+
+//$font_title : Helvetica, Arial, sans-serif  ;
+//$color_title : grey  ;
+//$color_small_title : lightblue  ;
+//$size_h1 : $size_body*2.5 ;
+//$size_h2 : $size_body*2.1 ;
+//$size_h3 : $size_body*1.7 ;
+//$size_h4 : $size_body*1.2 ;
+//$size_h5 : $size_body ;
+//$size_h6 : $size_body*0.85 ;
+//$size_small_h1 : $size_h1*0.7 ;
+//$size_small_h2 : $size_h2*0.7 ;
+//$size_small_h3 : $size_h3*0.7 ;
+//$size_small_h4 : $size_h3*0.7 ;
+//$size_small_h5 : $size_h4*0.7 ;
+//$size_small_h6 : $size_h5*0.7 ;
+//$font_weight_title : bold ;
+
+//p
+
+//$p_margin : 2% ;
+
+//Mark
+
+//$color_mark : darken(//$bg_body,10%) ;
+//$bg_mark : yellow ;
+
+//del
+
+//$decoration_del : line-through ;
+
+//ins
+
+//$decoration_ins : underline ;
+
+//u
+
+//$decoration_u : underline ;
+
+//strong
+
+//$font_weight_strong : bold ;
+
+//em
+
+//$font_style_em : italic ;
+
+//abbr
+
+//$color_abbr : $color_base_light ;
+
+//blockquote
+
+//$color_blockquote : $color_base_light ;
+//$size_blockquote : floor(//$size_body*1.25) ;
+//$border_color_blockquote : $color_base_dark ;
+//$border_blockquote : 1px solid ;
+
+//code
+
+//$background_color_code : $color_base_darken ;
+//$color : $color_base_dark ;
+
+//font pre code and kbd
+
+//$font_mono : Menlo, Monaco, Consolas, "Courier New", monospace ;
+
+//table
+
+//$padding_cell : 8px ;
+//$bg_table :transparent ;
+//$align_table : left ;
+//$border_table : 1px solid ;
+//$border_color_table : black ;
+
+// a, link
+
+//$link_color : #FF00BF ;
+//$link_hover_color : darken(//$link_color,15%) ;
+
+//Button
+
+//$border_button : 1px solid ;
+//$border_color_btn : black ;
+//$radius_btn : 15px ;
+//$text_align_btn : center ;
+//$size_btn : $size_body*1.2 ;
+//$w_btn: 25% ;
+//$btn_color: grey ;
+//$btn_hover_color: darken(//$btn_color,15%) ;
+//$btn_active_color: lighten(//$btn_color,15%) ;
+//$btn_l_color : red, blue, orange, green ;
+//$btn_l_color_hover: crimson, navy, orangered, darken(green, 15%) ;
+//$btn_l_color_active: pink,lightskyblue, khaki, lightgreen ;
+//$btn_fancy_color: green ;
+//$radius_large_btn : 25px ;
+//$width_large_btn : 55% ;
+//$width_small_btn : 10% ;
+//$btn_width_xl : 100% ;
+//$btn_fancy_bg : linear-gradient(to top right,//$bg_body,//$btn_fancy_color) ;
+//$btn_fancy_perspec : 800px ;
+//$btn_fancy_shadow : 8px 8px 0px #AAA ;
+
+//alertes
+
+//$width_alertes : 98% ;
+//$alertes_succes_color: lightgreen ;
+//$alertes_info_color: lightblue ;
+//$alertes_warn_color: brown ;
+//$alertes_danger_color: purple ;
+//$padding_alertes: 10px ;
+//$border_alertes : 5px ;
+//$border_color_succes : lighten(//$alertes_succes_color,15%) ;
+//$border_color_info : lighten(//$alertes_info_color,15%) ;
+//$border_color_warn : lighten(//$alertes_warn_color,15%) ;
+//$border_color_danger : lighten(//$alertes_danger_color,15%) ;
+
+//jumbotron
+
+
+//$bg_jumbotron : green ;
+//$text_align_jumbotron : center ;
+//$color_jumbotron : $color_base_dark ;
+//$size_h1_jumbotron : $size_h1*1.5 ;
+//$size_p_jumbotron : $size_body*1.2 ;
+//$padding_jumbotron : 15px ;
+//$display_jumbotron : inline-block ;
+
+//breadcrumb
+
+//$breadcrumb_color : brown ;
+//$breadcrumb_font : 18px Helvetica, Arial, Sans-Serif ;
+
+//navbar
+
+//$bg_nav_def: #338de1 ;
+//$bg_nav_hover: #5b05ee ;
+//$nav_color: #ecf0f1 ;
+//$nav_color_hover: #ecdbff;
+
+//grid
+
+//$width: 100 ;
+//$numcols: 5 ;
+//$w_gout: 2 ;
+//$w_c: $width - //$numcols*//$w_gout ;
+//$marg_bot: 20px ;
