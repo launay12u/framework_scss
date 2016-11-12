@@ -32,16 +32,17 @@ header {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    &.left{
+      float:left;
+    }
+
+    &.right{
+      float: right;
+    }
   }
 
   li {
-    .left{
-      float: left;
-    }
-    
-    .right{
-      float:right;
-    }
+    float: left;
   }
 
   li a {
