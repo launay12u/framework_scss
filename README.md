@@ -17,7 +17,7 @@ To install this framework, you need to clone this repository :
 
 `git clone https://github.com/launay12u/framework_scss.git`
 
-after clone the repository in your project you have just to link the ccs file to your html file :
+after clone the repository in your project you have just to link the css file to your html file :
 
 `<head>
     ... 
@@ -47,7 +47,7 @@ in which you can find an example of all features in this framework.
 ## Customize
 
 If you use scss version of this framework, you can customize all the attribute values of each contents.
-To do this you simply open the custom.css file, uncomment the lines that you want to change and insert a new value.
+To do this you simply open the customize.css file, uncomment the lines that you want to change and insert a new value.
 
 For example -> Change the number of column grid :  
 Open cutomize.scss  
