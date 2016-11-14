@@ -8,7 +8,7 @@
   border-radius: $radius_btn;
   background-color: $btn_color;
   &:hover {
-    cursor: hand;
+	cursor: pointer;
     background-color: $btn_hover_color;
   }
   &:active {
@@ -21,7 +21,7 @@
   width: $width_small_btn;
   background-color: $btn_color;
   &:hover {
-    cursor: hand;
+    cursor: pointer;
     background-color: $btn_hover_color;
   }
   &:active {
@@ -35,7 +35,7 @@
   width: $width_large_btn;
   background-color: $btn_color;
   &:hover {
-    cursor: hand;
+    cursor: pointer;
     background-color: $btn_hover_color;
   }
   &:active {
@@ -47,7 +47,7 @@
   @extend .btn;
   background-color: $color;
   &:hover {
-    cursor: hand;
+    cursor: pointer;
     background-color: $color_hover;
   }
   &:active {
@@ -70,7 +70,7 @@
   border-radius: 0;
   //background-color: $btn_color;
   &:hover{
-    cursor: hand;
+    cursor: pointer;
     //background-color: $btn_hover_color;
   }
   &:active{

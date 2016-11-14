@@ -292,7 +292,7 @@ header {
   border-radius: 15px;
   background-color: grey; }
   .btn:hover, .btn_small:hover, .btn_large:hover, .btn_red:hover, .btn_blue:hover, .btn_orange:hover, .btn_green:hover, .btn_flat:hover, .btn_xl:hover, .btn_fancy:hover {
-    cursor: hand;
+    cursor: pointer;
     background-color: #5a5a5a; }
   .btn:active, .btn_small:active, .btn_large:active, .btn_red:active, .btn_blue:active, .btn_orange:active, .btn_green:active, .btn_flat:active, .btn_xl:active, .btn_fancy:active {
     background-color: #a6a6a6; }
@@ -301,7 +301,7 @@ header {
   width: 10%;
   background-color: grey; }
   .btn_small:hover {
-    cursor: hand;
+    cursor: pointer;
     background-color: #5a5a5a; }
   .btn_small:active {
     background-color: #a6a6a6; }
@@ -311,7 +311,7 @@ header {
   width: 55%;
   background-color: grey; }
   .btn_large:hover {
-    cursor: hand;
+    cursor: pointer;
     background-color: #5a5a5a; }
   .btn_large:active {
     background-color: #a6a6a6; }
@@ -319,7 +319,7 @@ header {
 .btn_red {
   background-color: red; }
   .btn_red:hover {
-    cursor: hand;
+    cursor: pointer;
     background-color: crimson; }
   .btn_red:active {
     background-color: pink; }
@@ -327,7 +327,7 @@ header {
 .btn_blue {
   background-color: blue; }
   .btn_blue:hover {
-    cursor: hand;
+    cursor: pointer;
     background-color: navy; }
   .btn_blue:active {
     background-color: lightskyblue; }
@@ -335,7 +335,7 @@ header {
 .btn_orange {
   background-color: orange; }
   .btn_orange:hover {
-    cursor: hand;
+    cursor: pointer;
     background-color: orangered; }
   .btn_orange:active {
     background-color: khaki; }
@@ -343,7 +343,7 @@ header {
 .btn_green {
   background-color: green; }
   .btn_green:hover {
-    cursor: hand;
+    cursor: pointer;
     background-color: #003400; }
   .btn_green:active {
     background-color: lightgreen; }
@@ -352,7 +352,7 @@ header {
   border: none;
   border-radius: 0; }
   .btn_flat:hover {
-    cursor: hand; }
+    cursor: pointer; }
 
 .btn_xl {
   width: 100%; }
